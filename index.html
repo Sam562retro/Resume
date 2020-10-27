@@ -7,28 +7,38 @@
 	<title>Soham Gupta | Home</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+
+	</script>
 </head>
 
 <body>
 	<script src="script.js">
-
 	</script>
-	<div class="navBarTop navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="#">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#Projects">Projects</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#Contact">Contact</a>
-			</li>
-		</ul>
-	</div>
+	<nav class="fixed-top navbar-expand-md navbar-dark bg-dark">
+		<button type="button" class="btn btn-dark navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button> 
+		<div class=" collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Projects">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 	<div class="container-fluid FirstImg">
 		<div class="container-fluid mainImg">
 			<div class="row">
@@ -141,14 +151,14 @@
       <div class="col-md-3">
         <ul style="list-style-type: none;">
           <li><h4>Email</h4></li>
-          <li><h5><b><a href="mailto: gsoham562@gmail.com">gsoham562@gmail.com</a></b></h5></li>
-          <li><h5><b><a href="mailto: gsoham462@gmail.com">gsoham462@gmail.com</a></b></h5></li>
+          <li><h5><b><button class="btn btn-success" onclick="location.href='mailto: gsoham562@gmail.com'">gsoham562@gmail.com</button></b></h5></li>
+          <li><h5><b><button class="btn btn-success" onclick="location.href='mailto: gsoham462@gmail.com'">gsoham462@gmail.com</button></b></h5></li>
         </ul>
       </div>
       <div class="col-md-1"><h3>OR</h3></div>
-      <div class="col-md-2"><h4><b><a href="https://github.com/Sam562retro">Github</a></b></h4></div>
+      <div class="col-md-2"><h4><b><button type="button" class="btn btn-primary" onclick="window.open('https://github.com/Sam562retro')">Github</button></b></h4></div>
       <div class="col-md-1"><h3>OR</h3></div>
-      <div class="col-md-2"><h4><b><a href="https://www.youtube.com/channel/UC3ibhPUJE08IVPCrF8dbEnA">YouTube</a></b></h4></div>
+      <div class="col-md-2"><h4><b><button type="button" class="btn btn-warning" onclick="window.open('https://www.youtube.com/channel/UC3ibhPUJE08IVPCrF8dbEnA')">YouTube</button></b></h4></div>
       <div class="col-md-1"></div>
     </div>
   </div>
